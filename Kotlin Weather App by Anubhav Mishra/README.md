@@ -7,11 +7,8 @@ Informations like Temperature, Pressure, Humidity, Weather status, Time of Sunri
 <b>Creating an Android Weather App using Kotlin</b>
 </a>
 </p>
-
 <br><h2>Get an API key from OpenWeatherMap</h2>
 <p>For retrieving data we will use <strong>OpenWeatherAPI</strong>, and we will be needing an API key for it. Before proceeding please get an API key by registering on Open Weather API.</p>
-
-
 <br><h2>Getting weather information using Latitude & Longitude</h2>
 <p>Suppose you want to request weather information using a <strong>Latitude</strong> &amp; <strong>Longitude</strong> of a place, then you should use:</p>
 <pre>response = URL("https://api.openweathermap.org/data/2.5/weather?lat=$LAT&amp;lon=$LON&amp;units=metric&amp;appid=$API").readText(
